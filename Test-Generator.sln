@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGenerator", "TestGenerator\TestGenerator.csproj", "{099EBB65-28AC-4C6E-A61F-C32DCCD4DFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGeneratorUnitTests", "TestGeneratorUnitTests\TestGeneratorUnitTests.csproj", "{E31FB0C8-1A1F-403D-9226-42F9B1A039BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGeneratorConsole", "TestGeneratorConsole\TestGeneratorConsole.csproj", "{1405D701-1466-4CF6-AB5D-D17A1091FC6B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{099EBB65-28AC-4C6E-A61F-C32DCCD4DFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099EBB65-28AC-4C6E-A61F-C32DCCD4DFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099EBB65-28AC-4C6E-A61F-C32DCCD4DFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099EBB65-28AC-4C6E-A61F-C32DCCD4DFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31FB0C8-1A1F-403D-9226-42F9B1A039BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31FB0C8-1A1F-403D-9226-42F9B1A039BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31FB0C8-1A1F-403D-9226-42F9B1A039BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31FB0C8-1A1F-403D-9226-42F9B1A039BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1405D701-1466-4CF6-AB5D-D17A1091FC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1405D701-1466-4CF6-AB5D-D17A1091FC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1405D701-1466-4CF6-AB5D-D17A1091FC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1405D701-1466-4CF6-AB5D-D17A1091FC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
