@@ -194,6 +194,7 @@
     <Compile Include="CSCodeDataStructures\ParameterInformation.cs" />
     <Compile Include="CSCodeDataStructures\PathInformation.cs" />
     <Compile Include="CSCodeDataStructures\TypeInformation.cs" />
+    <Compile Include="GeneratorConfig.cs" />
     <Compile Include="ITestGenerator.cs" />
     <Compile Include="PatternGenerator\IPatternGenerator.cs" />
     <Compile Include="PatternGenerator\PatternGenerator.cs" />
