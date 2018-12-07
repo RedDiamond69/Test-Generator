@@ -8,5 +8,11 @@ namespace TestGeneratorConsole.TestSourceFiles
 {
     public class SimpleClass
     {
+        public static void Main()
+        {
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();
+        }
     }
 }
