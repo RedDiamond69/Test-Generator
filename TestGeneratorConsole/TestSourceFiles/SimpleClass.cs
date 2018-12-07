@@ -8,7 +8,7 @@ namespace TestGeneratorConsole.TestSourceFiles
 {
     public class SimpleClass
     {
-        public static void Main()
+        public static void Hello()
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Press any key to exit.");
