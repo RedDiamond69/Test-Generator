@@ -196,6 +196,7 @@
     <Compile Include="CSCodeDataStructures\TypeInformation.cs" />
     <Compile Include="ITestGenerator.cs" />
     <Compile Include="PatternGenerator\IPatternGenerator.cs" />
+    <Compile Include="PatternGenerator\PatternGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
