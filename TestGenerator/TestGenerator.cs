@@ -12,9 +12,8 @@ namespace TestGenerator
     {
         private readonly GeneratorConfig _configGenerator;
 
-        public TestGenerator()
-        {
-        }
+        public TestGenerator(GeneratorConfig config) => _configGenerator = 
+            config ?? throw new ArgumentException("Config can't be null!");
 
         public async Task Generate()
         {
