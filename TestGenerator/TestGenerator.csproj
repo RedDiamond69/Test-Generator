@@ -41,6 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CSCodeDataStructures\ClassInformation.cs" />
+    <Compile Include="CSCodeDataStructures\ConstructorInformation.cs" />
+    <Compile Include="CSCodeDataStructures\FieldInformation.cs" />
+    <Compile Include="CSCodeDataStructures\FileInformation.cs" />
+    <Compile Include="CSCodeDataStructures\MethodInformation.cs" />
+    <Compile Include="CSCodeDataStructures\ParameterInformation.cs" />
+    <Compile Include="CSCodeDataStructures\PathInformation.cs" />
+    <Compile Include="CSCodeDataStructures\TypeInformation.cs" />
     <Compile Include="ITestGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
