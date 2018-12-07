@@ -8,5 +8,8 @@ namespace TestGenerator.CSCodeDataStructures
 {
     public class ConstructorInformation
     {
+        public List<ParameterInformation> ParametersDeclaration { get; protected set; }
+
+        public ConstructorInformation() => ParametersDeclaration = new List<ParameterInformation>();
     }
 }
