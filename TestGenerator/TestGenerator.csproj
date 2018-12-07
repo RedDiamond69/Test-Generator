@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="AsyncReaderWriter\IAsyncReader.cs" />
     <Compile Include="AsyncReaderWriter\IAsyncWriter.cs" />
+    <Compile Include="AsyncReaderWriter\Reader\AsyncFileDataReader.cs" />
+    <Compile Include="AsyncReaderWriter\Writer\AsyncFileDataWriter.cs" />
     <Compile Include="CSCodeDataStructures\ClassInformation.cs" />
     <Compile Include="CSCodeDataStructures\ConstructorInformation.cs" />
     <Compile Include="CSCodeDataStructures\FileInformation.cs" />
