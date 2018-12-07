@@ -198,6 +198,7 @@
     <Compile Include="PatternGenerator\IPatternGenerator.cs" />
     <Compile Include="PatternGenerator\PatternGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
