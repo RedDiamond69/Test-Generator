@@ -195,6 +195,7 @@
     <Compile Include="CSCodeDataStructures\PathInformation.cs" />
     <Compile Include="CSCodeDataStructures\TypeInformation.cs" />
     <Compile Include="ITestGenerator.cs" />
+    <Compile Include="PatternGenerator\IPatternGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
