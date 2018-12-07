@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="TestGeneratorConsole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestSourceFiles\NotSimpleClass.cs" />
+    <Compile Include="TestSourceFiles\SimpleClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
