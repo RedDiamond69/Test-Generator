@@ -45,6 +45,7 @@
     <Compile Include="AsyncReaderWriter\IAsyncWriter.cs" />
     <Compile Include="AsyncReaderWriter\Reader\AsyncFileDataReader.cs" />
     <Compile Include="AsyncReaderWriter\Writer\AsyncFileDataWriter.cs" />
+    <Compile Include="CSCodeAnalyzer\ICSCodeAnalyzer.cs" />
     <Compile Include="CSCodeDataStructures\ClassInformation.cs" />
     <Compile Include="CSCodeDataStructures\ConstructorInformation.cs" />
     <Compile Include="CSCodeDataStructures\FileInformation.cs" />
