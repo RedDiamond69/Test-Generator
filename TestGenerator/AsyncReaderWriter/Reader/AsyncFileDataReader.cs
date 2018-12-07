@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace TestGenerator.AsyncReaderWriter.Reader
 {
-    public class AsyncFileDataReader
+    public class AsyncFileDataReader : IAsyncReader
     {
+        public Task<string> ReadDataAsync(string path)
+        {
+            throw new NotImplementedException();
+        }
+
+        public AsyncFileDataReader()
+        {
+        }
     }
 }
