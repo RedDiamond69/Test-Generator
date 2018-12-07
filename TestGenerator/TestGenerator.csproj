@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="CSCodeDataStructures\ClassInformation.cs" />
     <Compile Include="CSCodeDataStructures\ConstructorInformation.cs" />
-    <Compile Include="CSCodeDataStructures\FieldInformation.cs" />
     <Compile Include="CSCodeDataStructures\FileInformation.cs" />
     <Compile Include="CSCodeDataStructures\MethodInformation.cs" />
     <Compile Include="CSCodeDataStructures\ParameterInformation.cs" />
