@@ -8,5 +8,6 @@ namespace TestGenerator.AsyncReaderWriter
 {
     public interface IAsyncReader
     {
+        Task<string> ReadDataAsync(string path);
     }
 }
