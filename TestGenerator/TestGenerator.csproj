@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsyncReaderWriter\IAsyncReader.cs" />
+    <Compile Include="AsyncReaderWriter\IAsyncWriter.cs" />
     <Compile Include="CSCodeDataStructures\ClassInformation.cs" />
     <Compile Include="CSCodeDataStructures\ConstructorInformation.cs" />
     <Compile Include="CSCodeDataStructures\FileInformation.cs" />
