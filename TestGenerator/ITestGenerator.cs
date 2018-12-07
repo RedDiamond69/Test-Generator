@@ -8,5 +8,6 @@ namespace TestGenerator
 {
     public interface ITestGenerator
     {
+        Task Generate();
     }
 }
