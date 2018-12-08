@@ -27,7 +27,7 @@ namespace TestGeneratorConsole
                 WriterThreadCount = 2
             };
             new TestGenerator.TestGenerator(config).Generate().Wait();
-            Console.WriteLine("Generation completed!");
+            Console.WriteLine("Test generation completed!");
             Console.ReadKey();
         }
     }

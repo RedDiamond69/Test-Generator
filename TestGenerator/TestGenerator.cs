@@ -33,19 +33,19 @@ namespace TestGenerator
             {
                 MaxDegreeOfParallelism = _configGenerator.WriterThreadCount
             };
-            TransformBlock<string, Task<string>> transformBlock = 
-                new TransformBlock<string, Task<string>>(
+            TransformBlock<string, string> transformBlock = 
+                new TransformBlock<string, string>(
                     (readPath) => _configGenerator.AsyncReader.ReadDataAsync(readPath), readOptions);
-            TransformManyBlock<Task<string>, PathInformation> sourceCodeToTestTransform = 
-                new TransformManyBlock<Task<string>, PathInformation>(
+            TransformManyBlock<string, PathInformation> sourceCodeToTestTransform = 
+                new TransformManyBlock<string, PathInformation>(
                     (readSourceTask) => 
-                    _configGenerator.PatternGenerator.GenerateCode(readSourceTask.Result), processOptions);
+                    _configGenerator.PatternGenerator.GenerateCode(readSourceTask), processOptions);
             ActionBlock<PathInformation> write = new ActionBlock<PathInformation>(
-                (path) => _configGenerator.AsyncWriter.WriteDataAsync(path).Wait(), writeOptions);
+                (path) => _configGenerator.AsyncWriter.WriteDataAsync(path), writeOptions);
             transformBlock.LinkTo(sourceCodeToTestTransform, linkOptions);
             sourceCodeToTestTransform.LinkTo(write, linkOptions);
             foreach (string path in _configGenerator.Paths)
-                await transformBlock.SendAsync(path);
+                transformBlock.Post(path);
             transformBlock.Complete();
             await write.Completion;
         }
